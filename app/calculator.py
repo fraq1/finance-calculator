@@ -20,3 +20,5 @@ def calculate_balance(incomes: list[float], expenses: list[float]) -> float:
         raise ValueError("Expense cannot be negative")
 
     return sum(incomes) - sum(expenses)
+
+# CI/CD test comment

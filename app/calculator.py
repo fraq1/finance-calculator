@@ -2,7 +2,7 @@ def add_income(balance: float, amount: float) -> float:
     if amount < 0:
         raise ValueError("Income cannot be negative")
 
-    return balance + amount
+    return balance - amount
 
 
 def add_expense(balance: float, amount: float) -> float:
